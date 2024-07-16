@@ -20,7 +20,7 @@ Links to code:
 4. Docker-Compose - [https://github.com/Daniel200555/runner](https://github.com/Daniel200555/runner)
 
 Structure of microservices in my project:
-1. LoginAndRegister - this is microservice which create new user account and save new unique nickname, save email of new user and new **ENCODING** password in PostgreSQL database. After that register request send to FileFtpMicroservice message to create folder with unique nickname of user and also register send to FileMongoMicroservice message to create body of user with unique name for to save body of files.
+1. LoginAndRegister - this is microservice which create new user account and save new unique nickname, save email of new user and new **ENCODING** password in PostgreSQL database. After that register request send to FileFtpMicroservice message to create folder with unique nickname of user and also register function send to FileMongoMicroservice message to create body of user with unique name for to save body of files.
 2. FileFtpMicroservice - this is microservice which enabled to ftp server and save in user folder, folders and files which user want to save in MyDrive site, delete this files and stream this files, all this function works by getting kafka messages from LoginAndRegister and FileMongoMicroservice.
 3. FileMongoMicroservice - this is microservice which enabled to MongoDB which save body of files which save files in FTP server, delete and rename files.
 
