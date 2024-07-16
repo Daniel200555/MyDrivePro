@@ -1,5 +1,4 @@
 # MyDrivePro
-This is a project which show my status of my knowledge in coding.
 
 Technologies in my project:
 1. Java
@@ -11,8 +10,8 @@ Technologies in my project:
 7. Docker
 8. Kafka
 9. Monitoring:
-10. Prometheus 
-11. Grafana
+	1. Prometheus 
+	2. Grafana
 
 Links to code:
 1. LoginAndRegister - [https://github.com/Daniel200555/LoginAndRegister](https://github.com/Daniel200555/LoginAndRegister)
